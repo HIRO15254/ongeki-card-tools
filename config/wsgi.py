@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ongeki_tools.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.product')
 
 application = get_wsgi_application()
